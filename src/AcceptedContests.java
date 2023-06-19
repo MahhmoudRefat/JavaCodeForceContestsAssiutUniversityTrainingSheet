@@ -4,6 +4,15 @@ public class AcceptedContests {
         String s = scanner.nextLine();
         System.out.println("Hello, "+s);
         */
+    /*
+C - Simple Calculator
+    * Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        long y = scanner.nextLong();
+        System.out.println(x + " + " + y +" = "+ (x+y));
+        System.out.println(x + " * " + y +" = "+ (x*y));
+        System.out.println(x + " - " + y +" = "+ (x-y));
+    * */
 /*B - Basic Data Types
 Scanner scanner = new Scanner(System.in);
         int intvariable = scanner.nextInt();
