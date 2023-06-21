@@ -40,5 +40,12 @@ C - Simple Calculator
      */
     /*B - Basic Data Types
      */
+    /*F - Digits Summation
+Scanner scanner = new Scanner(System.in);
+        long m = scanner.nextLong();
+        long n = scanner.nextLong();
+        System.out.println((n % 10) + (m % 10));
+
+     */
 
 }
