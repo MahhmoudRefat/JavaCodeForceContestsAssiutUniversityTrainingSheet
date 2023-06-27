@@ -57,4 +57,15 @@ Scanner scanner = new Scanner(System.in);
         System.out.println((x*(x+1))/2);
 
      */
+    /*
+    I - Welcome for you with Conditions
+     Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        if (a >= b) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+     */
 }

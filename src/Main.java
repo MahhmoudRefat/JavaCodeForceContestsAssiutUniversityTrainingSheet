@@ -5,10 +5,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        if (a >= b) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
+        if (a%b == 0 || b%a == 0 ){
+            System.out.println("Multiples");
+        }
+        else {
+            System.out.println("No Multiples");
         }
 
     }
