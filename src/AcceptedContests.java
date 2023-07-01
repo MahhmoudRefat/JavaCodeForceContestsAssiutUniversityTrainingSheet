@@ -68,4 +68,32 @@ Scanner scanner = new Scanner(System.in);
             System.out.println("No");
         }
      */
+    /*
+    J. Multiples
+     Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        if (a%b == 0 || b%a == 0 ){
+            System.out.println("Multiples");
+        }
+        else {
+            System.out.println("No Multiples");
+        }
+     */
+
+    /*
+    L - The Brothers
+
+     Scanner scanner = new Scanner(System.in);
+        String f1 = scanner.next();
+        String s1 = scanner.next();
+        String f2 = scanner.next();
+        String s2 = scanner.next();
+
+        if (Objects.equals(s1, s2)) {
+            System.out.println("ARE Brothers");
+        } else {
+            System.out.println("NOT");
+        }
+     */
 }
