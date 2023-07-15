@@ -3,15 +3,30 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        float x = scanner.nextFloat();
-        int parsx = (int) x;
-        float f = x - parsx;
-        if (x - parsx > 0) {
-            System.out.print("float " + parsx );
-            System.out.printf(" %.3f", f);
-        } else {
-            System.out.println("int " + parsx);
+        int a = scanner.nextInt();
+        char s = scanner.next().charAt(0);
+        int b = scanner.nextInt();
+        char q = scanner.next().charAt(0);
+        int c = scanner.nextInt();
+        switch (s) {
+            case '+': {
+                if (a + b == c) System.out.println("Yes");
+                else System.out.println(a + b);
+                break;
+            }
+            case '-': {
+                if (a - b == c) System.out.println("Yes");
+                else System.out.println(a - b);
+                break;
+            }
+            case '*': {
+                if (a * b == c) System.out.println("Yes");
+                else System.out.println(a * b);
+                break;
+            }
+
         }
+
     }
 }
 /*

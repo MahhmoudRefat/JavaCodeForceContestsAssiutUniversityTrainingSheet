@@ -151,4 +151,18 @@ Scanner scanner = new Scanner(System.in);
             System.out.println("Q3");
         }
      */
+    /*
+    U. Float or int
+    Scanner scanner = new Scanner(System.in);
+        float x = scanner.nextFloat();
+        int parsx = (int) x;
+        float f = x - parsx;
+        if (x - parsx > 0) {
+            System.out.print("float " + parsx );
+            System.out.printf(" %.3f", f);
+        } else {
+            System.out.println("int " + parsx);
+        }
+
+     */
 }
