@@ -208,4 +208,20 @@ Scanner scanner = new Scanner(System.in);
             System.out.println(Math.max(l1, l2) + " " + Math.min(r1, r2));
         }
      */
+    /*
+    Y - The last 2 digits
+
+     Scanner scanner = new Scanner(System.in);
+        long a = scanner.nextLong() % 100;
+        int b = scanner.nextInt() % 100;
+        int c = scanner.nextInt() % 100;
+        int d = scanner.nextInt() % 100;
+        long m = (a * b * c * d) % 100;
+        if (m < 10 ){
+            System.out.println("0" + m );
+        }
+        else {
+            System.out.println(m);
+        }
+     */
 }

@@ -3,16 +3,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        long a = scanner.nextLong() % 100;
-        int b = scanner.nextInt() % 100;
-        int c = scanner.nextInt() % 100;
-        int d = scanner.nextInt() % 100;
-        long m = (a * b * c * d) % 100;
-        if (m < 10 ){
-            System.out.println("0" + m );
-        }
-        else {
-            System.out.println(m);
+        double a = scanner.nextDouble() ;
+        double b = scanner.nextDouble() ;
+        double c = scanner.nextDouble() ;
+        double d = scanner.nextDouble() ;
+        if (b * Math.log(a) > d *Math.log(c)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
         }
     }
 }
