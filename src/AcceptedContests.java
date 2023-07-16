@@ -224,4 +224,18 @@ Scanner scanner = new Scanner(System.in);
             System.out.println(m);
         }
      */
+    /*
+    Z - Hard Compare
+
+      Scanner scanner = new Scanner(System.in);
+        double a = scanner.nextDouble() ;
+        double b = scanner.nextDouble() ;
+        double c = scanner.nextDouble() ;
+        double d = scanner.nextDouble() ;
+        if (b * Math.log(a) > d *Math.log(c)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+     */
 }
