@@ -3,10 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        char s = scanner.next().charAt(0);
-
-
+        int l1 = scanner.nextInt();
+        int r1 = scanner.nextInt();
+        int l2 = scanner.nextInt();
+        int r2 = scanner.nextInt();
+        if (Math.max(l1, l2) > Math.min(r1, r2)) {
+            System.out.println("-1");
+        } else {
+            System.out.println(Math.max(l1, l2) + " " + Math.min(r1, r2));
+        }
     }
 }
 /*
