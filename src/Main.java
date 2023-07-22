@@ -2,31 +2,31 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(); // number of integers to check
 
+        int evenCount = 0, oddCount = 0, positiveCount = 0, negativeCount = 0;
+
+        for (int i = 0; i < n; i++) {
+            int num = sc.nextInt();
+
+            if (num % 2 == 0) {
+                evenCount++;
+            } else {
+                oddCount++;
+            }
+
+            if (num > 0) {
+                positiveCount++;
+            } else if (num < 0) {
+                negativeCount++;
+            }
+        }
+
+        System.out.println("Even: " + evenCount);
+        System.out.println("Odd: " + oddCount);
+        System.out.println("Positive: " + positiveCount);
+        System.out.println("Negative: " + negativeCount);
 
     }
 }
-/*
-  String input = scanner.nextLine();
-        char a = input.charAt(0);
-        char s = input.charAt(1);
-        char b = input.charAt(2);
-
-    int a = scanner.nextInt();
-    char s = scanner.next().charAt(0);
-    int b = scanner.nextInt();
-    int result = 0;
-        if (s == '+') {
-                result = a + b;
-                } else if (s == '−') {
-                result = a - b;
-                } else if (s == '*') {
-                result = a * b;
-                } else {
-                result = a / b;
-                }
-                System.out.println(result);
-
-
- */
