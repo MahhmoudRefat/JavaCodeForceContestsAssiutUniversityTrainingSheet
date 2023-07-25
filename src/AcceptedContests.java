@@ -262,4 +262,14 @@ Scanner scanner = new Scanner(System.in);
             }
         }
      */
+    /*
+    while (true) {
+            int pass = sc.nextInt();
+            if (pass == 1999) {
+                System.out.println("Correct");
+                System.exit(0);
+            } else {
+                System.out.println("Wrong");
+            }
+     */
 }
