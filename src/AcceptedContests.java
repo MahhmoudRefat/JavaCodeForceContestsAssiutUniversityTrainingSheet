@@ -263,6 +263,7 @@ Scanner scanner = new Scanner(System.in);
         }
      */
     /*
+    D - Fixed password
     while (true) {
             int pass = sc.nextInt();
             if (pass == 1999) {
@@ -271,5 +272,20 @@ Scanner scanner = new Scanner(System.in);
             } else {
                 System.out.println("Wrong");
             }
+     */
+    /*
+    E - Max
+      int n = sc.nextInt();
+        int max = 0;
+        for (int i = 0; i < n; i++) {
+            int numbers = sc.nextInt();
+            if (numbers >= max) {
+                max = numbers;
+            }
+
+        }
+        System.out.println(max);
+
+    }
      */
 }
