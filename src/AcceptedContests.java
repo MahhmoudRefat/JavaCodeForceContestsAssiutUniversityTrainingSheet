@@ -288,4 +288,13 @@ Scanner scanner = new Scanner(System.in);
 
     }
      */
+    /*
+    F - Multiplication
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for (int i = 1 ; i <= 12 ; i++) {
+            System.out.println(n + " * " + i + " = " + (n*i) );
+        }
+
+     */
 }
