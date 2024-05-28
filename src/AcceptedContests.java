@@ -283,21 +283,7 @@ Scanner scanner = new Scanner(System.in);
                 System.out.println("Wrong");
             }
      */
-    /*
-    E - Max
-      int n = sc.nextInt();
-        int max = 0;
-        for (int i = 0; i < n; i++) {
-            int numbers = sc.nextInt();
-            if (numbers >= max) {
-                max = numbers;
-            }
 
-        }
-        System.out.println(max);
-
-    }
-     */
     /*
   */
 
