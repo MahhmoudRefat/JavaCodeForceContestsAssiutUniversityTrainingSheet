@@ -161,128 +161,15 @@ Scanner scanner = new Scanner(System.in);
             System.out.println("Q3");
         }
      */
-    /*
-    U. Float or int
-    Scanner scanner = new Scanner(System.in);
-        float x = scanner.nextFloat();
-        int parsx = (int) x;
-        float f = x - parsx;
-        if (x - parsx > 0) {
-            System.out.print("float " + parsx );
-            System.out.printf(" %.3f", f);
-        } else {
-            System.out.println("int " + parsx);
-        }
 
-     */
-    /*
-    W. Mathematical
- Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        char s = scanner.next().charAt(0);
-        int b = scanner.nextInt();
-        char q = scanner.next().charAt(0);
-        int c = scanner.nextInt();
-        switch (s) {
-            case '+': {
-                if (a + b == c) System.out.println("Yes");
-                else System.out.println(a + b);
-                break;
-            }
-            case '-': {
-                if (a - b == c) System.out.println("Yes");
-                else System.out.println(a - b);
-                break;
-            }
-            case '*': {
-                if (a * b == c) System.out.println("Yes");
-                else System.out.println(a * b);
-                break;
-            }
 
-        }
 
-     */
 
-    /*
-    X - Two intervals
 
-     Scanner scanner = new Scanner(System.in);
-        int l1 = scanner.nextInt();
-        int r1 = scanner.nextInt();
-        int l2 = scanner.nextInt();
-        int r2 = scanner.nextInt();
-        if (Math.max(l1, l2) > Math.min(r1, r2)) {
-            System.out.println("-1");
-        } else {
-            System.out.println(Math.max(l1, l2) + " " + Math.min(r1, r2));
-        }
-     */
-    /*
-    Y - The last 2 digits
 
-     Scanner scanner = new Scanner(System.in);
-        long a = scanner.nextLong() % 100;
-        int b = scanner.nextInt() % 100;
-        int c = scanner.nextInt() % 100;
-        int d = scanner.nextInt() % 100;
-        long m = (a * b * c * d) % 100;
-        if (m < 10 ){
-            System.out.println("0" + m );
-        }
-        else {
-            System.out.println(m);
-        }
-     */
-    /*
-    Z - Hard Compare
 
-      Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble() ;
-        double b = scanner.nextDouble() ;
-        double c = scanner.nextDouble() ;
-        double d = scanner.nextDouble() ;
-        if (b * Math.log(a) > d *Math.log(c)) {
-            System.out.println("YES");
-        } else {
-            System.out.println("NO");
-        }
-     */
 
-    /*
-    C. Even, Odd, Positive and Negative
-     Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt(); // number of integers to check
 
-        int evenCount = 0, oddCount = 0, positiveCount = 0, negativeCount = 0;
-
-        for (int i = 0; i < n; i++) {
-            int num = sc.nextInt();
-
-            if (num % 2 == 0) {
-                evenCount++;
-            } else {
-                oddCount++;
-            }
-
-            if (num > 0) {
-                positiveCount++;
-            } else if (num < 0) {
-                negativeCount++;
-            }
-        }
-     */
-    /*
-    D - Fixed password
-    while (true) {
-            int pass = sc.nextInt();
-            if (pass == 1999) {
-                System.out.println("Correct");
-                System.exit(0);
-            } else {
-                System.out.println("Wrong");
-            }
-     */
 
     /*
   */
