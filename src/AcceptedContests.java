@@ -67,80 +67,10 @@ Scanner scanner = new Scanner(System.in);
         System.out.println((x*(x+1))/2);
 
      */
-    /*
-    I - Welcome for you with Conditions
-     Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        if (a >= b) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
-        }
-     */
-    /*
-    J. Multiples
-     Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        if (a%b == 0 || b%a == 0 ){
-            System.out.println("Multiples");
-        }
-        else {
-            System.out.println("No Multiples");
-        }
-     */
+
+
 
     /*
-    L - The Brothers
-
-     Scanner scanner = new Scanner(System.in);
-        String f1 = scanner.next();
-        String s1 = scanner.next();
-        String f2 = scanner.next();
-        String s2 = scanner.next();
-
-        if (Objects.equals(s1, s2)) {
-            System.out.println("ARE Brothers");
-        } else {
-            System.out.println("NOT");
-        }
-     */
-    /*
-        M. Capital or Small or Digit
-
-       Scanner scanner = new Scanner(System.in);
-         char x = scanner.next().charAt(0);
-        if (x >= 48 && x <=64)
-        {
-            System.out.println("IS DIGIT");
-        }
-    else if (x >= 65 && x <= 96){
-            System.out.println("ALPHA");
-            System.out.println("IS CAPITAL");
-        }
-    else {
-            System.out.println("ALPHA");
-            System.out.println("IS SMALL");
-        }
-     */
-
-    /*
-    Scanner scanner = new Scanner(System.in);
-        char x = scanner.next().charAt(0);
-        int ascii = (int) x;
-        int x2 = 0;
-        if (ascii >= 65 && ascii <= 96) {
-            x2 = x + 32;
-        } else {
-            x2 = x - 32;
-        }
-        char ch = (char) x2;
-        System.out.println(ch);
-     */
-
-
-
 
 
 
