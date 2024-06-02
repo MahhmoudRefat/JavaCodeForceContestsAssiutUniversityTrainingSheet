@@ -59,14 +59,6 @@ Scanner scanner = new Scanner(System.in);
      */
 
 
-    /*
-   G -  summation from 1 to N
-
-       Scanner scanner = new Scanner(System.in);
-        long x = scanner.nextInt();
-        System.out.println((x*(x+1))/2);
-
-     */
 
 
 
