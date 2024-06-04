@@ -31,48 +31,23 @@ Scanner scanner = new Scanner(System.in);
  */
     /*
 C - Simple Calculator
-    * Scanner scanner = new Scanner(System.in);
+     Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
         long y = scanner.nextLong();
         System.out.println(x + " + " + y +" = "+ (x+y));
         System.out.println(x + " * " + y +" = "+ (x*y));
         System.out.println(x + " - " + y +" = "+ (x-y));
-    * */
-    /*
-    D - Difference
-    Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        long b = scanner.nextLong();
-        int c = scanner.nextInt();
-        long d = scanner.nextLong();
-        long x =( (a * b) - (c * d));
-        System.out.println("Difference = "+ x);
-     */
-    /*B - Basic Data Types
-     */
-    /*F - Digits Summation
-Scanner scanner = new Scanner(System.in);
-        long m = scanner.nextLong();
-        long n = scanner.nextLong();
-        System.out.println((n % 10) + (m % 10));
-
      */
 
 
 
 
 
-    /*
 
 
 
 
 
-
-
-
-    /*
-  */
 
 
 
