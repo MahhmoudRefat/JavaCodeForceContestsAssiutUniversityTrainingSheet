@@ -9,22 +9,6 @@ public class AcceptedContests {
                     }
                     a /= 10;     */
 
-    /* A - Say Hello With C++
-    * Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
-        System.out.println("Hello, "+s);
-        */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
