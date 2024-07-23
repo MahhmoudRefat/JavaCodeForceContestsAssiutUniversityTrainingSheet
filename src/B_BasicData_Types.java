@@ -14,5 +14,9 @@ public class B_BasicData_Types {
         System.out.println(charvariable);
         System.out.println(floatvariable);
         System.out.println(doubvariable);
+
+
+
+
     }
 }

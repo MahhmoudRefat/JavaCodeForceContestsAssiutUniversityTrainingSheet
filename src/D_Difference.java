@@ -12,6 +12,5 @@ public class D_Difference {
         long x =( (a * b) - (c * d));
         System.out.println("Difference = "+ x);
 
-
     }
 }
