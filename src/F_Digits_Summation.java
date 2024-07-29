@@ -6,7 +6,8 @@ public class F_Digits_Summation {
         Scanner scanner = new Scanner(System.in);
         long m = scanner.nextLong();
         long n = scanner.nextLong();
-        System.out.println((n % 10) + (m % 10));
+        long result = (n%10)+ (m%10);
+        System.out.println(result);
 
     }
 }
